@@ -89,3 +89,19 @@ const animals = [, ,, 'cat', 'bird'];
 const [, cat, , animal,anotherOne] = animals
 console.log(cat,animal,anotherOne)
 
+
+
+
+//?====== Rest/Spread
+
+//
+const a = [1, 2, 3, 4]
+const b = [100000,...a]
+
+// b.push(100000)
+
+
+
+
+console.log(a) // [1,2,3,4,10000]
+console.log(b) // [1, 2, 3, 4]
